@@ -1,0 +1,12 @@
+language: python
+rvm: "2.6"
+cache: bundler
+before_install:
+  - rvm install 2.6.6
+  - gem update --system
+  - gem install bundler
+
+script:
+  - git config --global user.name "$(git show -s --pretty=%an)"
+  - git config --global user.email "$(git show -s --pretty=%ae)"
+  - cookiecutter . --no-input author_name="$(git config user.name)" author_email="$(git config user.email)" vcs="github.com" vcs_user="$(basename $TRAVIS_REPO_SLUG)" project_name="Synthetic Ruby"
