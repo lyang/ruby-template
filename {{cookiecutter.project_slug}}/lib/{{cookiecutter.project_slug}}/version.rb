@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module {{cookiecutter.module_name}}
+module {{cookiecutter.project_namespace}}
   VERSION = '{{cookiecutter.version}}'
 end

@@ -1,8 +1,17 @@
 {
-  "author": null,
-  "github_username": null,
+  "author_name": null,
+  "author_email": null,
+  "vcs": ["github.com"],
+  "vcs_user": null,
   "project_name": null,
-  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
-  "module_name": "{{cookiecutter.project_slug.split('_')|map('title')|join}}",
-  "version": "0.0.1"
+  "project_slug": "{{cookiecutter.project_name.lower() | slugify}}",
+  "project_underscore": "{{cookiecutter.project_slug.replace('-', '_')}}",
+  "project_url": "https://{{cookiecutter.vcs}}/{{cookiecutter.vcs_user}}/{{cookiecutter.project_slug}}",
+  "project_namespace": "{{cookiecutter.project_slug.split('-') | map('title') | join}}",
+  "project_summary": "{{cookiecutter.project_name}}",
+  "project_description": "{{cookiecutter.project_name}}",
+  "required_ruby_version": "2.6",
+  "version": "0.0.1",
+
+  "_extensions": ["jinja2_ansible_filters.AnsibleCoreFiltersExtension"]
 }

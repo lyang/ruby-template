@@ -2,6 +2,5 @@
 
 require_relative '{{cookiecutter.project_slug}}/version'
 
-module {{cookiecutter.module_name}}
-  class Error < StandardError; end
+module {{cookiecutter.project_namespace}}
 end
