@@ -1,4 +1,5 @@
 # frozen_string_literal: true
 
+ruby '>= {{cookiecutter.required_ruby_version}}'
 source 'https://rubygems.org'
 gemspec

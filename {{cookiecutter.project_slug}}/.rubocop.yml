@@ -2,6 +2,7 @@ require: rubocop-rspec
 
 AllCops:
   NewCops: enable
+  TargetRubyVersion: '{{cookiecutter.required_ruby_version}}'
 
 Style/Documentation:
   Enabled: false
