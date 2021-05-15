@@ -1,7 +1,6 @@
 CommitMsg:
   SpellCheck:
     enabled: true
-    on_warn: fail
     skip_if: ['bash', '-c', '! which hunspell']
 
 PreCommit:

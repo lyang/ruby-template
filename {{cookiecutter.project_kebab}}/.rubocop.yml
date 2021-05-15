@@ -16,7 +16,7 @@ Naming/FileName:
     - 'lib/{{cookiecutter.project_kebab}}.rb'
 
 Layout/LineLength:
-  Max: 100
+  Max: 120
 
 Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
