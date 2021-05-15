@@ -11,6 +11,10 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/spec_helper.rb'
 
+Naming/FileName:
+  Exclude:
+    - 'lib/{{cookiecutter.project_kebab}}.rb'
+
 Layout/LineLength:
   Max: 100
 

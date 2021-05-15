@@ -9,4 +9,4 @@ git add .
 ./bin/setup
 
 git commit -m "Initial commit"
-git remote add origin git@{{cookiecutter.vcs}}:{{cookiecutter.vcs_user}}/{{cookiecutter.project_slug}}.git
+git remote add origin git@{{cookiecutter.vcs}}:{{cookiecutter.vcs_user}}/{{cookiecutter.project_kebab}}.git

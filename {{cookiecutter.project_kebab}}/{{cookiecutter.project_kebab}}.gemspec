@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/{{cookiecutter.project_slug}}/version'
+require_relative 'lib/{{cookiecutter.project_kebab}}/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = '{{cookiecutter.project_slug}}'
-  spec.version       = {{cookiecutter.project_namespace}}::VERSION
+  spec.name          = '{{cookiecutter.project_kebab}}'
+  spec.version       = {{cookiecutter.project_pascal}}::VERSION
   spec.authors       = ['{{cookiecutter.author_name}}']
   spec.email         = ['{{cookiecutter.author_email}}']
 

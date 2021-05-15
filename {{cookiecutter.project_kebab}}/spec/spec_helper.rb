@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require '{{cookiecutter.project_underscore}}'
+require '{{cookiecutter.project_kebab}}'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
