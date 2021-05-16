@@ -1,4 +1,4 @@
-# {{cookiecutter.project_name}} [![Build Status](https://travis-ci.com/{{cookiecutter.vcs_user}}/{{cookiecutter.project_kebab}}.svg?branch=main)](https://travis-ci.com/{{cookiecutter.vcs_user}}/{{cookiecutter.project_kebab}})
+# {{cookiecutter.project_name}} [![Gem Version](https://badge.fury.io/rb/{{cookiecutter.project_kebab}}.svg)](https://badge.fury.io/rb/{{cookiecutter.project_kebab}}) [![Build Status](https://travis-ci.com/{{cookiecutter.vcs_user}}/{{cookiecutter.project_kebab}}.svg?branch=main)](https://travis-ci.com/{{cookiecutter.vcs_user}}/{{cookiecutter.project_kebab}})
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem.
 
